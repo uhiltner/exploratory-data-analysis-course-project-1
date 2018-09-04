@@ -1,15 +1,3 @@
----
-title: 'Exploratory Data Analysis: Peer-graded Assignment: Course Project 1'
-author: "Ulrike Hiltner"
-date: '2018-08-28'
-output:
-  html_notebook:
-    toc: yes
-    toc_depth: '5'
-  html_document:
-    toc: yes
-    toc_depth: '5'
----
 
 # Instructions
 
