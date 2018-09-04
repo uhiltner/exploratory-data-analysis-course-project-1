@@ -21,6 +21,6 @@ subsetData <- dplyr::filter(data, Date >= "2007-02-01" & Date <= "2007-02-02")
 # Visualize count of global active power in graphic device on PC.
 png("plot1.png", width = 480, height = 480) # open graphic device
 hist(subsetData$Global_active_power, main = "Global Active Power", 
-     xlab = "Global Active Power (kilowatt)", 
+     xlab = "Global Active Power (kilowatts)", 
      col = "red")
 dev.off() # close device

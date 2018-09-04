@@ -25,7 +25,7 @@ datetime <- strptime(paste(subsetData$Date, subsetData$Time, sep=" "),
 png("plot3.png", width = 480, height = 480) # open graphic device
 plot(datetime, subsetData$Sub_metering_1, 
      type = "l", 
-     ylab = "Energy Submetering", xlab = "")
+     ylab = "Energy sub metering", xlab = "")
 lines(datetime, subsetData$Sub_metering_2, 
       type = "l", 
       col = "red")

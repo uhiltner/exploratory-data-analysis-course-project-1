@@ -37,7 +37,7 @@ plot(datetime, subsetData$Voltage,
 # bottom left
 plot(datetime, subsetData$Sub_metering_1, 
      type = "l", 
-     ylab = "Energy Submetering", xlab = "")
+     ylab = "Energy sub metering", xlab = "")
 lines(datetime, subsetData$Sub_metering_2, 
       type = "l", 
       col = "red")

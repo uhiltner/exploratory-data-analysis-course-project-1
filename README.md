@@ -1,3 +1,15 @@
+---
+title: 'Exploratory Data Analysis: Peer-graded Assignment: Course Project 1'
+author: "Ulrike Hiltner"
+date: '2018-08-28'
+output:
+  html_notebook:
+    toc: yes
+    toc_depth: '5'
+  html_document:
+    toc: yes
+    toc_depth: '5'
+---
 
 # Instructions
 
@@ -57,3 +69,5 @@ For each plot you should
   +  Add the PNG file and R code file to your git repository
 
 When you are finished with the assignment, push your git repository to GitHub so that the GitHub version of your repository is up to date. There should be four PNG files and four R code files.
+
+

@@ -26,5 +26,5 @@ png("plot2.png", width=480, height=480) # open graphic device.
 plot(datetime, subsetData$Global_active_power, 
      type = "l", 
      xlab = " ", 
-     ylab = "Global Active Power (kilowatt)")
+     ylab = "Global Active Power (Kilowatts)")
 dev.off() # close graphic device.
